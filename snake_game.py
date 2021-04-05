@@ -1,6 +1,3 @@
-# Simple Snake Game in Python 3 for Beginners
-# By @TokyoEdTech
-
 import turtle
 import time
 import random
@@ -83,10 +80,10 @@ def move():
 
 # Keyboard bindings
 wn.listen()
-wn.onkeypress(go_up, "e")
-wn.onkeypress(go_down, "s")
-wn.onkeypress(go_left, "a")
-wn.onkeypress(go_right, "f")
+wn.onkeypress(go_up, "Up")
+wn.onkeypress(go_down, "Down")
+wn.onkeypress(go_left, "Left")
+wn.onkeypress(go_right, "Right")
 
 # Main game loop
 while True:
